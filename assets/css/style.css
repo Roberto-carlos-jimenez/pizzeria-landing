@@ -1,7 +1,7 @@
 :root {
     --color-dark: #0f0f0f;
     --color-red: #c62828;
-    --color-green: #8bc34a;
+    --color-green: #6F7331;
     --color-white: #ffffff;
 }
 /*parte del navbar*/
@@ -408,6 +408,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
+    border-radius: .5rem;
     transition: transform .4s ease;
 }
 
